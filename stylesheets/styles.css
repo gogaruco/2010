@@ -19,6 +19,7 @@ h1 {
 	padding:0 0 0 0;
 	background-position:-20px 0px;
 	line-height:30px;
+	font-size:1.55em;
 }
 
 h2 {
@@ -31,7 +32,7 @@ h3 {
 
 p, li, td {
 	font-size:1.2em;
-	line-height:1.9em;
+	line-height:1.5em;
 }
 
 p {
@@ -65,23 +66,24 @@ pre {
 	background-image:url(../images/bg_header.jpg);
 	background-repeat:no-repeat;
 	height:249px;
+	background-position:35px 0;
 }
 
 img#logo {
 	position:absolute;
-	top:20px;
-	left:7px;
+	top:30px;
+	left:65px;
 }
 
 div.hdrcopy {
 	position:absolute;
-	top:20px;
-	right:0px;
+	top:30px;
+	right:40px;
 	width:425px;
 }
 
 div.hdrcopy p {
-	font-size:1.1em;
+	font-size:1.2em;
 	color:#464646;
 	text-align:left;
 }
@@ -117,8 +119,9 @@ div.cta {
 div.cta p {
 	color:#FFF;
 	text-align:center;
-	font-size:1.8em;
-	margin:0;
+	font-size:2.3em;
+	margin:5px 0 3px 0;
+	font-weight:bold;
 }
 
 div.cta p.button {
@@ -126,8 +129,8 @@ div.cta p.button {
 	background-image:url(../images/bg_button.png);
 	background-repeat:no-repeat;
 	background-position:center;
-	height:38px;
-	line-height:38px;
+	height:35px;
+	line-height:32px;
 	vertical-align:middle;
 	margin:0 0 0 0;
 }
@@ -135,6 +138,13 @@ div.cta p.button {
 div.cta p.button a:link, div.cta p.button a:visited {
 	text-align:center;
 	color:#363636;
+	font-size:.9em;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+div.cta p.button a:hover {
+	text-decoration:underline;
 }
 
 ul#nav_top {
@@ -186,21 +196,22 @@ ul#nav_top li.active a:hover {
 }
 
 #col_main {
-	width:683px;
+	width:713px;
 	float:left;
 	display:inline;
 	background-image:url(../images/bg_col_main_top.gif);
-	background-position:30px 0;
+	background-position:20px 0;
 	background-repeat:no-repeat;
+	overflow:hidden;
 }
 
 #content {
 	text-align:left;
-	margin:0 60px 0 75px;
+	margin:0 60px 0 52px;
 }
 
 #col_right {
-	width:341px;
+	width:311px;
 	float:left;
 	display:inline;
 	background-image:url(../images/bg_col_right_top.gif);
@@ -234,6 +245,50 @@ ul#nav_top li.active a:hover {
 
 div.last {
 	border-bottom:0 none !important;
+}
+
+div.home {
+}
+
+div.home img#faces {
+	margin:-5px 0 15px 0;
+}
+
+div.home p {
+}
+
+div.home {
+}
+
+/* updates (homepage) */
+
+div.updates {
+}
+
+div.updates div {
+	border-top:1px solid #CCC;
+	padding-top:10px;
+	padding-bottom:25px;
+}
+
+div.updates h2 {
+	font-size:1.6em;
+	color:#003412;
+	margin-top:50px;
+}
+
+div.updates h3 {
+	margin-bottom:0;
+	font-size:1.7em;
+	color:#a0410d;
+	line-height:120%;
+}
+
+div.updates p.date {
+	margin-top:0;
+	font-size:1.6em;
+	color:#626262;
+	line-height:120%;
 }
 
 /* team */
@@ -274,6 +329,26 @@ div.involve h3 {
 	margin:0;
 }
 
+div.involve div.broadcast img {
+	float:left;
+	display:block;
+	margin:0 0 0 0;
+	padding:0 20px 10px 0;
+}
+
+div.involve div.broadcast h3 {
+	clear:right;
+	font-size:1.4em;
+	color:#197b30;
+	margin-bottom:10px;
+}
+
+div.involve div.broadcast p {
+	font-family:Monaco, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1.3em;
+	margin-right:00px;
+}
+
 /* location */
 
 
@@ -311,8 +386,8 @@ div.involve h3 {
 }
 
 .speakers h3 {
-	font-size:1.9em;
-	color:#197b30;
+	font-size:1.5em;
+	color:#003412;
 	margin:0;
 }
 
@@ -363,6 +438,10 @@ div.involve h3 {
 .sponsors {
 }
 
+.sponsors {
+	padding:0 15px 0 0;
+}
+
 .sponsors div.item {
 	padding:20px 0 20px 0;
 	border-bottom:2px solid #CCC;
@@ -391,7 +470,7 @@ div.involve h3 {
 
 /* schedule */
 
-.sponsors {
+.schedule {
 }
 
 .schedule div.item {
@@ -422,8 +501,8 @@ div.involve h3 {
 
 .schedule table {
 	position:relative;
-	left:-30px;
-	width:610px;
+	left:-15px;
+	width:625px;
 }
 
 .schedule tr {
@@ -455,14 +534,13 @@ div.involve h3 {
 
 
 .sessions {
-	width:590px;
-	margin:40px 0 20px -10px;
+	margin:40px 0 20px 0px;
 }
 
 .sessions h2 {
 	color:#FFF;
 	background-color:#197b30;
-	margin:0 0 20px -20px;
+	margin:0 -30px 20px 0;
 	padding:5px 10px;
 	font-size:1.7em;
 }
